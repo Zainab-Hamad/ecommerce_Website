@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gupter:wght@400;500;700&family=Pacifico&family=Playwrite+DE+SAS&family=Playwrite+HU&family=Playwrite+NO:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--font icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--box icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+    <title>✨Light Moon Store</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                    <span id="star-logo">⭐</span>
+                    <h2 id="T-logo">Light Moon Store</h2>
+
+            </div>
+
+            <div class="navigation">
+                <ul class="nav-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="cart.html" class="cart"><i class="fa-solid fa-bag-shopping"></i> </a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i> </a>
+                </ul>
+            </div>
+
+            <div class="mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i> </a>
+                <i class="fa-solid fa-bars" id="mobile"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header" id="hero">
+                    <h1 class="hero-title">Welcome To The Light Moon Store</h1>
+                    <p>
+                        Discover an elegant selection of flowers, perfumes, and gifts — each crafted to express beauty, love, and sophistication. 
+                        Let every scent and bloom tell your story
+                    </p>
+        </section>
+
+        <!-- features section-->
+        <section class="featured container" id="product">
+            <h2>Our Featured Products</h2>
+
+            <div class="product">
+                <article class="product-card product" data-id="1" data-name="Rose Flower Bouquet" data-price="20$" data-img="./image/floweBouquet.jpg" data-type="flowers"  data-description="Our luxurious collection of high-quality artificial roses gives you the magic of natural roses without the maintenance. Choose the feel you prefer.">
+                    <img src="./image/floweBouquet.jpg" alt="Flower Bouquet">
+                    <h3>Roses Flower Bouquet </h3>
+                    <p class="price">20$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+            
+                <article class="product-card product" data-id="2" data-name="Perfume Chanel" data-price="67$" data-img="./image/parfumeBB.jpg" data-type="perfumes" 
+                        data-description="The essence of luxury and mysterious femininity.A luxurious fragrance by Chanel, blending warm white floral notes with touches of amber and patchouli, creating an unforgettable presence.Choose Coco Noir — be the symbol of elegance and distinction in every moment.">
+                    <img src="./image/parfumeBB.jpg" alt="perfumes">
+                    <h3>Perfume Chanel</h3>
+                    <p class="price">67$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="3" data-name="Yellow Flower" data-price="10$" data-img="./image/bouquetflowerB.jpg" data-type="flowers"  data-description="Our luxurious collection of high-quality artificial roses gives you the magic of natural roses without the maintenance. Choose the feel you prefer.">
+                    <img src="./image/bouquetflowerB.jpg" alt="Flower Bouquet" >
+                    <h3>Yellow Flower</h3>
+                    <p class="price">10$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="4" data-name="Perfume VEREVASE" data-price="67$" data-img="./image/parfumeV.jpg" data-type="perfumes"  data-description="Provides lasting freshness with this concentrated and luxurious fragrance. Designed to combine visual elegance with high aromatic quality, each color reflects a distinct scent and a special mood. Thanks to its powerful oil formula, this air freshener ensures long-lasting durability and effective odor elimination, while adding an elegant and attractive color touch to any space.">
+                    <img src="./image/parfumeV.jpg" alt="perfume">
+                    <h3>Perfume VEREVASE</h3>
+                    <p class="price">67$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="5" data-name="Bouquet of Butterflies" data-price="25$" data-img="./image/flowerBaterfly.jpg" data-type="flowers"  data-description="A stunning bouquet of delicate butterflies wrapped in elegant pastel paper.
+                    Perfect for any occasion — it symbolizes beauty, joy, and transformation.
+                    A unique gift that adds a touch of magic to every moment. ✨">
+                    <img src="./image/flowerBaterfly.jpg" alt="flower">
+                    <h3>Bouquet of Butterflies</h3>
+                    <p class="price">25$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="6" data-name="Perfume ENCRE NOIRE" data-price="53.5$" data-img="./image/parfumeE.jpg" data-type="perfumes"  
+                        data-description="A fragrance that embodies the power of mystery and the charm of masculinity. A deep, woody scent pulsing with elegance and confidence.blending vetiver and amber to create an unforgettable presence. More than a perfume… it’s a bold signature for a man like no other">
+                    <img src="./image/parfumeE.jpg" alt="perfume">
+                    <h3>Perfume ENCRE NOIRE</h3>
+                    <p class="price">53.5$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="7" data-name="White rose bouquet" data-price="20$" data-img="./image/flowerRoZa.jpg" data-type="flowers"  data-description="Our luxurious collection of high-quality artificial roses gives you the magic of natural roses without the maintenance. Choose the feel you prefer.">
+                    <img src="./image/flowerRoZa.jpg" alt="flower">
+                    <h3>White rose bouquet</h3>
+                    <p class="price">20$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="8" data-name="Perfume TOM FORD" data-price="291$"  data-img="./image/perfumshop2.jpg" data-type="perfumes"
+                        data-description="Transform any space into an oasis of freshness and charm with TOM FORD fragrance. Formulated with a high-quality formula and specially designed to provide a powerful, long-lasting scent, it eliminates unpleasant odors and fills the air with a refreshing fruity scent. It comes in a stylish and practical bottle, ready to add a distinctive aesthetic and aromatic touch to your car, home, or office.">
+                    <img src="./image/perfumshop2.jpg" alt="Perfume TOM FORD">
+                    <h3>Perfume TOM FORD</h3>
+                    <p class="price">291$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="9" data-name="Yellow rose bouquet" data-price="10$"  data-img="./image/bouquetflowerC.jpg" data-type="flowers"  data-description="Lasting Beauty Artificial roses with a natural feel and look give you the beauty of roses without the need for care or worry about wilting.">
+                    <img src="./image/bouquetflowerC.jpg" alt="Yellow rose bouquet">
+                    <h3>Yellow rose bouquet</h3>
+                    <p class="price">10$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="10" data-name="Drops of Magic Concentrated Perfume with a Long-Lasting Scent" data-price="125$"  data-img="./image/parfumeshop4.jpg" data-type="perfumes"  data-description="Discover the secret to a fresh and relaxing atmosphere with this luxurious liquid air freshener. Designed to deliver intense fragrance power that lasts for hours, it eliminates unwanted odors and fills your surroundings with captivating natural scents. It's the perfect companion for your car, wardrobe, or anywhere you want to add a lasting freshness. It comes in an elegant, easy-to-use bottle that reflects the quality of the scent within.">
+                    <img src="./image/parfumeshop4.jpg" alt="Strawberry Perfume">
+                    <h3>Strawberry Perfume </h3>
+                    <p class="price">125$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="11" data-name="ORIENTAL Perfume" data-price="10$" data-img="./image/parfumeQ.jpg" data-type="perfumes"  data-description="Transform any space into an oasis of freshness and charm with ORIENTAL fragrance. Formulated with a high-quality formula and specially designed to provide a powerful, long-lasting scent, it eliminates unpleasant odors and fills the air with a refreshing fruity scent. It comes in a stylish and practical bottle, ready to add a distinctive aesthetic and aromatic touch to your car, home, or office.">
+                    <img src="./image/parfumeQ.jpg" alt="ORIENTAL Perfume">
+                    <h3>ORIENTAL Perfume </h3>
+                    <p class="price">10$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card product" data-id="12" data-name="Spring Elegance Bouquet" data-price="12$" data-img="./image/bouquetflowerA.jpg" data-type="flowers"  data-description="A chic arrangement blending soft pink tones with bright white blooms, bringing warmth and beauty to any space. Perfect as a gift, for home décor, or to add a touch of feminine luxury to any occasion. A harmony of colors that speaks of love, grace, and timeless elegance.">
+                    <img src="./image/bouquetflowerA.jpg" alt="ORIENTAL Perfume">
+                    <h3>Spring Elegance Bouquet </h3>
+                    <p class="price">12$</p>
+                    <div class="icon-btn">
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn like">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="pagination">
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="mini-contact-content">
+                <h2>Have a Question or Special Request?</h2>
+                <p>We’re always happy to assist you 🌸</p>
+                <a href="contact.html" class="btn">Contact Us</a>
+                </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                
+                <h3 id="T-logo"><span id="star-logo">⭐</span> Light Moon Store</h3>
+                <p>💐Perfumes and flowers are considered  elegance and sophistication.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socail">
+                <h4>Follow Us</h4>
+                <div class="socail-icons">
+                    <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/flo_313_wer/?__pwa=1"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&COPY; <span id="year"></span> Light Moon Store | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html>
